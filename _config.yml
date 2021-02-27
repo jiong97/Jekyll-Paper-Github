@@ -2,15 +2,15 @@
 #
 # This is the configuration file for your blog, please change these items after forked.
 
-title: Your title
+title: T
 email: your-email@example.com
-name: Your name
+name: wj
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here.
-keywords: [Your keywords]
+  Foo Bar.
+keywords: []
 baseurl: '' # the subpath of your site, e.g. /`blog
 url: '' # the base hostname & protocol for your site, e.g. http://example.com
-domain: 'example.com' # the domain name for your site, e.g. example.com
+domain: '' # the domain name for your site, e.g. example.com
 language: en
 # Supported languages list:
 # en: English
@@ -33,7 +33,7 @@ diagram: true # Diagrams support
 paginate: 25
 paginate_path: '/page:num/'
 
-permalink: /:year/:month/:day/:title
+permalink: /:categories/:title
 
 sass:
   sass_dir: _sass
